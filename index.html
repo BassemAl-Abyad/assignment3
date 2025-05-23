@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Bakery</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- js scripts (#EXPERIMENTAL#) -->
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- navbar position: fixed -->
+    <!-- use float left for logo and float right for menu (ul li) -->
+    <!-- use clearfix for the float -->
+    <div class="navbar" id="navbar">
+      <div class="logo">
+        <a class="no-dec" href="#home"
+          ><img src="./img/bakery-light-1.png" alt="logo" href="#"
+        /></a>
+      </div>
+      <div class="right-menu font-alegreya-smaller">
+        <ul>
+          <li><a class="white-text no-dec" href="#">Home</a></li>
+          <li><a class="white-text no-dec" href="#">About</a></li>
+          <li><a class="white-text no-dec" href="#">Our Offer</a></li>
+          <li><a class="white-text no-dec" href="#">Gallery</a></li>
+          <li><a class="white-text no-dec" href="#">Blog</a></li>
+          <li><a class="white-text no-dec" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- *********** -->
+    <!-- header -->
+    <!-- *********** -->
+    <div class="top-bg-image">
+      <div class="overlay">
+        <div class="center container-top-main">
+          <span class="font-alegreya-sans-big white-text">Welcome to</span>
+          <h1 class="font-alegreya-main white-text">Family Bakery</h1>
+          <p class="font-alegreya-sans-bigger white-text">
+            We're the biggest, best equipped and most advanced Bakery in the
+            greater Los Angeles area.
+          </p>
+        </div>
+        <div>
+          <button
+            class="learn-button font-alegreya-sans-small-b white-text"
+            onclick="location.reload();"
+          >
+            Learn More
+          </button>
+          <button
+            class="contact-button font-alegreya-sans-small-b white-text"
+            onclick="location.reload();"
+          >
+            Contact us
+          </button>
+        </div>
+        <div>
+          <button
+            class="lower-button"
+            onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });"
+          >
+            <span class="dot"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- main body and elements -->
+
+    <div class="container-who">
+      <div class="left-part center bake-item-half">
+        <img
+          class="about-image"
+          src="./img/alexandru-stavrica.jpg"
+          alt="about-image"
+        />
+      </div>
+      <div class="right-part-about bake-item-half">
+        <h2 class="font-alegreya">Who we are?</h2>
+        <p class="grey-text font-alegreya-sans big-line-height">
+          We have been operating for over 30 years and are Members of The
+          Federation of Master Builders. We work on projects big and small from
+          small residential extensions to full house. We are so happy with this
+          theme. Everyday it make our lives better.
+        </p>
+        <div class="icon-item icon-fix">
+          <div class="left-part-icon-who bake-item-half icon-bg-transp">
+            <img class="icon-who" src="./img/Icons/leaf.png" alt="leaf" />
+          </div>
+          <div class="icon-fix center-text">
+            <p class="grey-text font-alegreya-sans">
+              We care about environment.
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="icon-item">
+          <div class="left-part-icon-who bake-item-half icon-bg-transp">
+            <img class="icon-who" src="./img/Icons/people.png" alt="people" />
+          </div>
+          <div class="icon-fix center-text">
+            <p class="grey-text font-alegreya-sans">
+              We are trusted by hundreds of clients.
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="icon-item">
+          <div class="left-part-icon-who bake-item-half icon-bg-transp">
+            <img class="icon-who" src="./img/Icons/heart.png" alt="heart" />
+          </div>
+          <div class="icon-fix center-text">
+            <p class="grey-text font-alegreya-sans">Social media loves us!</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="icon-item">
+          <div class="left-part-icon-who bake-item-half icon-bg-transp">
+            <img class="icon-who" src="./img/Icons/check.png" alt="check" />
+          </div>
+          <div class="icon-fix center-text">
+            <p class="grey-text font-alegreya-sans">
+              This list is super easy to create.
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="darker-box container-location">
+      <div class="left-part-location bake-item-half">
+        <h2 class="font-alegreya">Our Location</h2>
+        <p class="grey-text font-alegreya-sans big-line-height">
+          We have been operating for over 30 years and are Members of The
+          Federation of Master Builders. We work on projects big and small from
+          small residential extensions to full house. We are so happy with this
+          theme. Everyday it make our lives better.
+        </p>
+        <p class="grey-text font-alegreya-sans big-line-height">
+          Story on projects big and small from small residential extensions to
+          full house. We are so happy with this theme. Everyday it make our
+          lives better.
+        </p>
+      </div>
+      <div class="right-part center bake-item-half">
+        <img class="location-image" src="./img/full-2.jpg" alt="full-2" />
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="our-baking">
+      <h2 class="font-alegreya">Our Baking</h2>
+      <p class="grey-text font-alegreya-sans big-line-height">
+        Learn more about them. We have worked truly hard to make them perfect
+        for every use.
+      </p>
+      <br />
+      <br />
+      <div class="bake-item">
+        <img src="./img/ben-garratt.jpg" alt="bake-item-first" />
+        <h3 class="font-alegreya-small">Superior Breads</h3>
+        <p class="grey-text font-alegreya-sans big-line-height container-p">
+          Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
+          libero, at semper mauris velit a velit. Phasellus commodo turpis et
+          lacinia posuere.
+        </p>
+      </div>
+      <div class="bake-item">
+        <img src="./img/stas-ovsky.jpg" alt="bake-item-second" />
+        <h3 class="font-alegreya-small">Bagels</h3>
+        <p class="grey-text font-alegreya-sans big-line-height container-p">
+          Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
+          libero, at semper mauris velit a velit. Phasellus commodo turpis et
+          lacinia posuere.
+        </p>
+      </div>
+      <div class="bake-item">
+        <img src="./img/clem-onojeghuo.jpg" alt="bake-item-third" />
+        <h3 class="font-alegreya-small">Cookies</h3>
+        <p class="grey-text font-alegreya-sans big-line-height container-p">
+          Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
+          libero, at semper mauris velit a velit. Phasellus commodo turpis et
+          lacinia posuere.
+        </p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="darker-box container-contact">
+      <div class="left-part bake-item-half">
+        <h2 class="font-alegreya">Contact Information</h2>
+        <p class="grey-text font-alegreya-sans big-line-height">
+          I am text block. Click edit button to change this text. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+          nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+        <p class="grey-text font-alegreya-sans big-line-height">
+          Our contact details:
+        </p>
+        <div class="icon-item">
+          <div class="left-part-icon-contact bake-item-half icon-bg">
+            <img class="icon-contact" src="./img/Icons/map.png" alt="map" />
+          </div>
+          <div class="icon-fix">
+            <p class="grey-text font-alegreya-sans">
+              Manchester St 123-78B, Random 713, UK
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="icon-item">
+          <div class="left-part-icon-contact bake-item-half icon-bg">
+            <img class="icon-contact" src="./img/Icons/phone.png" alt="phone" />
+          </div>
+          <div class="icon-fix">
+            <p class="grey-text font-alegreya-sans">+46 123 456 789</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="icon-item">
+          <div class="left-part-icon-contact bake-item-half icon-bg">
+            <img
+              class="icon-contact"
+              src="./img/Icons/headphone.png"
+              alt="headphone"
+            />
+          </div>
+          <div class="icon-fix">
+            <p class="grey-text font-alegreya-sans">+37 431 456 789</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="icon-item">
+          <div class="left-part-icon-contact bake-item-half icon-bg">
+            <img class="icon-contact" src="./img/Icons/email.png" alt="email" />
+          </div>
+          <div class="icon-fix">
+            <p class="grey-text font-alegreya-sans">hello@sitename.com</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="right-part center bake-item-half">
+        <img class="map-image" src="./img/main-map.png" alt="main-map" />
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="brown-box container-bottom">
+      <div class="bake-item-quarter about-us-col">
+        <h3 class="font-alegreya-smaller white-text">About us</h3>
+        <p class="light-grey-text font-alegreya-sans-small big-line-height">
+          I am text block. Click edit button to change this text. Lorem ipsum
+          dolor sit amet, consectetur. I am text block. Click edit button to
+          change this text. Lorem ipsum dolor sit amet, consectetur.
+        </p>
+        <p class="light-grey-text font-alegreya-sans-small big-line-height">
+          We are the champions! We are the most amazing theme of all time, yeah.
+        </p>
+      </div>
+      <div class="bake-item-quarter">
+        <h3 class="font-alegreya-smaller white-text">Why we are special?</h3>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Our magical recipe.
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              We care about environment.
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              We are trusted by hundreds of clients.
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Social media loves us!
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              This list is super easy to create.
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="bake-item-quarter">
+        <h3 class="font-alegreya-smaller white-text">Opening Hours</h3>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Monday 10AM - 9PM
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Tuesday 10AM - 9PM
+            </p>
+          </div>
+        </div>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Wednesday 10AM - 9PM
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Thursday 10AM - 10PM
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="border-bottom">
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Friday 10AM - 10PM
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+          <div class="left-part-icon-arrow bake-item-half">
+            <img class="icon-arrow" src="./img/Icons/arrow.png" alt="arrow" />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Weekends 10AM - 11PM
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="bake-item-quarter bg-world">
+        <h3 class="font-alegreya-smaller white-text">Contact Details</h3>
+        <div class="icon-item fix border-bottom icon-item">
+          <div class="left-part-icon-details bake-item-half">
+            <img
+              class="icon-details"
+              src="./img/Icons/location.png"
+              alt="location"
+            />
+          </div>
+          <div>
+            <p class="light-grey-text font-alegreya-sans-small">
+              Manchester Road 123-78B, Silictown 7854MD, Great Country
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="border-bottom push-down icon-item">
+          <div class="left-part-icon-details bake-item-half">
+            <img
+              class="icon-details"
+              src="./img/Icons/phone-gray.png"
+              alt="phone"
+            />
+          </div>
+          <div>
+            <a
+              href="tel:+46 123 456 789"
+              class="light-grey-text font-alegreya-sans-small no-dec"
+            >
+              +46 123 456 789
+            </a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="border-bottom push-down icon-item">
+          <div class="left-part-icon-details bake-item-half">
+            <img
+              class="icon-details"
+              src="./img/Icons/email-solid.png"
+              alt="email"
+            />
+          </div>
+          <div>
+            <a
+              href="mailto:http//hello@sitename.com"
+              class="light-grey-text font-alegreya-sans-small no-dec"
+            >
+              hello@sitename.com
+            </a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="push-down icon-item">
+          <div class="left-part-icon-details bake-item-half">
+            <img class="icon-details" src="./img/Icons/earth.png" alt="earth" />
+          </div>
+          <div class="icon-fix">
+            <a
+              href="http://www.sitename.com"
+              class="light-grey-text font-alegreya-sans-small no-dec"
+            >
+              http://www.sitename.com
+            </a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="center darkbrown-box container-final">
+      <img src="./img/bakery-light-1.png" alt="bakery" />
+      <p class="font-alegreya-sans-smaller copyright-color">
+        Copyright 2017. All rights reserved.
+      </p>
+      <div class="social-space">
+        <a class="no-dec icon-space" href="http://facebook.com">
+          <img
+            class="icon-social icon-bg-final"
+            src="./img/Icons/facebook.png"
+            alt="facebook"
+          />
+        </a>
+        <a class="no-dec icon-space" href="http://google.com">
+          <img
+            class="icon-social icon-bg-final"
+            src="./img/Icons/google.png"
+            alt="Google+"
+          />
+        </a>
+        <a class="no-dec icon-space" href="http://linkedin.com">
+          <img
+            class="icon-social icon-bg-final"
+            src="./img/Icons/linkedin.png"
+            alt="LinkedIn"
+          />
+        </a>
+        <a class="no-dec icon-space" href="http://twitter.com">
+          <img
+            class="icon-social icon-bg-final"
+            src="./img/Icons/twitter.png"
+            alt="Twitter"
+          />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
